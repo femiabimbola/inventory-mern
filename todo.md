@@ -21,16 +21,26 @@ Clear all the default nextjs app and in the globalcss
   box-sizing:border-box
 }
 
-html, body #root .app {
-  height: 100%
-  width:100%
+html, body, #root, .app {
+  height: 100%;
+  width:100%;
   @apply text-sm;
-  @apply bg-gray-500
-  @apply text-gray-900
+  @apply bg-gray-500;
+  @apply text-gray-900;
 }
 ```
 
-To set the dark mode
+To set the dark mode and use colors
 ```bash
 npm i -D tw-colors
 ```
+
+### The links
+completed code - https://github.com/ed-roh/inventory-management/tree/master 
+
+
+**Next Steps**<br/>
+Working on the tailwind Config file to do the dark mode and light mode
+
+
+
