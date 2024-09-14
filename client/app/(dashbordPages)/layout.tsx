@@ -8,7 +8,7 @@ const DashboardLayout = ({children}: DashboardLayoutProps) => {
   return (
     <div>
       <DashboardWrapper>
-      {children}
+        {children}
       </DashboardWrapper>
     </div>
   )
