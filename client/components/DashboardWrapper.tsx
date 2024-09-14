@@ -1,10 +1,12 @@
-interface DashboardLayoutProps {
-  children : React.ReactNode
+interface DashboardWrapperProps {
+  children: React.ReactNode;
 }
 
-export const DashboardWrapper = () => {
+export const DashboardWrapper = ({ children }: DashboardWrapperProps) => {
   return (
-    <div>DashboardWrapper</div>
-  )
-}
-
+    <div className={`light flex bg-gray-50 text-gray-900 w-full min-h-screen`}>
+      The side bar
+      <main className="flex flex-col w-full h-full py-7 px-9 bg-gray-100 md: pl-24"> {children}</main>
+    </div>
+  );
+};

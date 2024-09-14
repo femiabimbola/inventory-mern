@@ -7,8 +7,9 @@ interface DashboardLayoutProps {
 const DashboardLayout = ({children}: DashboardLayoutProps) => {
   return (
     <div>
-      <DashboardWrapper />
+      <DashboardWrapper>
       {children}
+      </DashboardWrapper>
     </div>
   )
 }
