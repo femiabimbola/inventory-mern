@@ -43,4 +43,9 @@ completed code - https://github.com/ed-roh/inventory-management/tree/master
 Working on the tailwind Config file to do the dark mode and light mode
 
 
+## Working with React Redux toolkit
+```bash
+npm i react-redux @reduxjs/toolkit 
+```
+
 
