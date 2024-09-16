@@ -13,7 +13,7 @@ interface SidebarLinkProps {
 export const SidebarLink = ({href, icon: Icon, label, isCollapsed,}: SidebarLinkProps) => {
   const pathname = usePathname();
   // const isActive = pathname === href || (pathname === "/" && href === "/dashboard");
-   const isActive = pathname === href || ( href === "/dashboard");
+   const isActive = pathname === href || ( href === "/dashboard"); // when its highlighted
 
   return (
     <Link href={href}>
