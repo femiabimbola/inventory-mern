@@ -1,7 +1,10 @@
 "use client"
+
+import { useAppDispatch } from "@/redux"
 import { Menu } from "lucide-react"
 
 export const Sidebar = () => {
+  const dispatch = useAppDispatch()
   return (
     <div>
       {/* The Top Logo */}

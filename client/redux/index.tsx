@@ -1,3 +1,5 @@
+
+
 import { useRef } from "react";
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import {
@@ -11,14 +13,8 @@ import { api } from "@/redux/state/api";
 import { setupListeners } from "@reduxjs/toolkit/query";
 
 import {
-  persistStore,
-  persistReducer,
-  FLUSH,
-  REHYDRATE,
-  PAUSE,
-  PERSIST,
-  PURGE,
-  REGISTER,
+  persistStore, persistReducer, FLUSH, REHYDRATE,
+  PAUSE, PERSIST, PURGE,REGISTER,
 } from "redux-persist";
 import { PersistGate } from "redux-persist/integration/react";
 import createWebStorage from "redux-persist/lib/storage/createWebStorage";
