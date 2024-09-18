@@ -48,4 +48,12 @@ Working on the tailwind Config file to do the dark mode and light mode
 npm i react-redux @reduxjs/toolkit 
 ```
 
+## Using Prisma
+```bash
+npm i prisma @prisma/client
+```
+
+Then `npx prisma init`
+
+
 
