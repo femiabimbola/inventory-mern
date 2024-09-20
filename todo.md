@@ -50,7 +50,11 @@ npm i react-redux @reduxjs/toolkit
 
 ## Using Prisma
 ```bash
-npm i prisma @prisma/client
+npm i -D prisma @prisma/client
+```
+
+```bash
+npm i  @prisma/client
 ```
 
 Then `npx prisma init`
