@@ -23,8 +23,10 @@ async function deleteAllData(orderedFileNames: string[]) {
   }
 }
 
+// Seeding the data to the database
+
 async function main() {
-  const dataDirectory = path.join(__dirname, "seedData");
+  const dataDirectory = path.join(__dirname, "seedData"); //Getting the data direction
 
   const orderedFileNames = [
     "products.json",
@@ -38,8 +40,10 @@ async function main() {
     "expenseByCategory.json",
   ];
 
+  // Deleting any data that existing before
   await deleteAllData(orderedFileNames);
 
+  //Seeding the data
   for (const fileName of orderedFileNames) {
     const filePath = path.join(dataDirectory, fileName);
     const jsonData = JSON.parse(fs.readFileSync(filePath, "utf-8"));

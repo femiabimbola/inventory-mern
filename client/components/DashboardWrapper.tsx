@@ -10,6 +10,7 @@ interface DashboardWrapperProps {
 }
 
 const DashboardLayout = ({ children }: DashboardWrapperProps) => {
+  //@ts-ignore
   const isSidebarCollapsed = useAppSelector((state) => state.global.isSidebarCollapsed);
   const isDarkMode = useAppSelector((state) => state.global.isDarkMode);
 

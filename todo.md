@@ -56,4 +56,6 @@ npm i prisma @prisma/client
 Then `npx prisma init`
 
 
+I stopped at 1:37:04 -> I will setup supabase db
+
 
