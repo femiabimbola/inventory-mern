@@ -25,7 +25,7 @@ model Products {
   price         Float
   rating        Float?
   stockQuantity Int
-  Sales         Sales[]
+  Sales         Sales[] 
   Purchases     Purchases[]
 }
 
